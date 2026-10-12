@@ -1,0 +1,20 @@
+## 推荐理由模板
+
+写一段“值得看”的推荐理由。注意：
+
+- 不要写成新闻摘要
+- 直接回答：用户为什么现在就应该点开它
+- 强调创意亮点，而不是内容摘要
+
+### 输入
+
+Title: {title}
+Source: {source}
+Category: {category}
+Description: {description}
+Visual Analysis: {visual_analysis}
+Creative Core: {creative_core}
+
+### 输出要求
+
+只写 1～2 句推荐理由。字数 30～80 字。

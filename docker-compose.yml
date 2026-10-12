@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  creative-radar:
+    build: .
+    container_name: creative-radar
+    ports:
+      - "8000:8000"
+      - "5173:5173"
+    environment:
+      - DATABASE_URL=sqlite:///./data/creative_radar.db
+      - AI_PROVIDER=ollama
+      - AI_BASE_URL=http://localhost:11434/v1
+      - AI_API_KEY=ollama
+      - AI_MODEL=qwen:7b
+      - EMAIL_ENABLED=false
+    volumes:
+      - ./data:/app/data
+      - ./prompts:/app/prompts
+      - ./email:/app/email
+    restart: unless-stopped

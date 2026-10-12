@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Radar｜今日创意</title>
+</head>
+<body
+  style="
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+  "
+>
+  <div
+    style="
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 24px;
+      background-color: #fff;
+    "
+  >
+    <!-- Header -->
+    <div style="text-align: center; margin-bottom: 24px;">
+      <h1
+        style="
+          color: #4b1771;
+          font-size: 28px;
+          margin: 0 0 8px 0;
+          letter-spacing: -0.5px;
+        "
+      >
+        🔥 Creative Radar
+      </h1>
+      <p style="color: #666; margin: 0;">
+        每日创意灵感 + 灵感学习卡片
+      </p>
+      <p style="color: #999; font-size: 14px;">
+        {today_date}
+      </p>
+    </div>
+
+    <!-- Greeting -->
+    <p style="color: #555; margin-bottom: 20px;">
+      你好！今天互联网出现了这些值得你偷学的创意：
+    </p>
+
+    <!-- TOP 10 List -->
+    <div style="margin-bottom: 24px;">
+      <h2 style="color: #4b1771; font-size: 18px; margin-bottom: 16px;">
+        🔥 今日 TOP 10
+      </h2>
+
+      {items.map((item, idx) => (
+        <div
+          key={item.id}
+          style="
+            border-bottom: 1px solid #f0f0f0;
+            padding: 16px 0;
+          "
+        >
+          <div style="margin-bottom: 8px;">
+            <span
+              style="
+                display: inline-block;
+                font-size: 12px;
+                font-weight: 600;
+                color: #999;
+                margin-right: 8px;
+              "
+            >
+              {String(idx + 1).padStart(2, '0')}
+            </span>
+            <a
+              href={item.source_url}
+              style="
+                color: #4b1771;
+                text-decoration: none;
+                font-weight: 600;
+              "
+            >
+              {item.title}
+            </a>
+          </div>
+
+          {item.thumbnail && (
+            <div style="margin-bottom: 8px;">
+              <img
+                src={item.thumbnail}
+                alt={item.title}
+                style="
+                  width: 100%;
+                  height: 160px;
+                  object-fit: cover;
+                  border-radius: 4px;
+                "
+              />
+            </div>
+          )}
+
+          <p style="color: #666; font-size: 14px; margin-bottom: 6px;">
+            <span style="color: #999; margin-right: 6px;">{item.source}</span>
+            <span style="color: #999; margin-right: 6px;">{item.category}</span>
+          </p>
+
+          <p style="color: #444; font-size: 14px; line-height: 1.7;">
+            <strong style="color: #4b1771;">为什么值得看：</strong>
+            {item.recommendation}
+          </p>
+
+          <p style="color: #444; font-size: 14px; line-height: 1.7;">
+            <strong style="color: #4b1771;">创意拆解：</strong>
+            {item.creative_analysis}
+          </p>
+
+          <p style="color: #444; font-size: 14px; line-height: 1.7;">
+            <strong style="color: #4b1771;">如何模仿：</strong>
+            {item.imitation_method}
+          </p>
+
+          <p style="color: #888; font-size: 12px; margin-top: 6px;">
+            <a
+              href={item.source_url}
+              style="
+                color: #4b1771;
+                text-decoration: none;
+              "
+            >
+              查看原作品 →
+            </a>
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <!-- Today's Trends -->
+    {trends && trends.length > 0 && (
+      <div style="margin-bottom: 24px;">
+        <h2 style="color: #4b1771; font-size: 18px; margin-bottom: 12px;">
+          📈 今日趋势
+        </h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          {trends.map((tag) => (
+            <span
+              key={tag}
+              style="
+                background-color: #f5f3ff;
+                color: #6b21a8;
+                padding: 4px 12px;
+                border-radius: 12px;
+                font-size: 13px;
+              "
+            >
+              #{tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Today's Recommendation -->
+    {recommendation && (
+      <div
+        style="
+          background-color: #f5f3ff;
+          border-left: 4px solid #7c3aed;
+          padding: 16px 20px;
+          border-radius: 0 8px 8px 0;
+          margin-bottom: 24px;
+        "
+      >
+        <h3 style="color: #4b1771; font-size: 16px; margin-bottom: 8px;">
+          💡 今日最值得尝试
+        </h3>
+        <p style="color: #444; font-size: 14px; line-height: 1.7;">
+          {recommendation}
+        </p>
+      </div>
+    )}
+
+    <!-- Footer -->
+    <div
+      style="
+        margin-top: 32px;
+        padding-top: 16px;
+        border-top: 1px solid #f0f0f0;
+        text-align: center;
+        color: #999;
+        font-size: 12px;
+      "
+    >
+      <p>
+        <a href="#" style="color: #999;">查看原网站</a> ·
+        <a href="#" style="color: #999;">取消订阅</a>
+      </p>
+      <p style="margin-top: 8px;">
+        Created with ❤️ by Creative Radar
+      </p>
+    </div>
+  </div>
+</body>
+</html>

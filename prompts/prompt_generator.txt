@@ -1,0 +1,22 @@
+## AI 创作提示模板
+
+### 输入
+
+Title: {title}
+Source: {source}
+Category: {category}
+AI Summary: {ai_summary}
+Imitation Method: {imitation_method}
+Creative Core: {creative_core}
+
+### 输出要求
+
+为该创意生成可直接交给 AI 继续创作的提示词。包括：
+
+1. Midjourney Prompt
+2. Flux Prompt
+3. SDXL Prompt
+4. Qwen Image Prompt
+5. 视频 Prompt（如果适用）
+
+每条提示词独立成行，标明模型名称。

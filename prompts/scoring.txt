@@ -1,0 +1,40 @@
+## 创意评分模板
+
+对创意内容进行创意评分。注意：
+
+- 不是评价内容质量，而是评价创意本身的创意价值
+- 每项 0～10
+- 不要给政治内容评分
+
+### 输入
+
+Title: {title}
+Source: {source}
+Category: {category}
+AI Summary: {ai_summary}
+Creative Core: {creative_core}
+Visual Analysis: {visual_analysis}
+Imitation Method: {imitation_method}
+
+### 评分维度
+
+1. 新颖度（新意、意外感、独特性）—— 0～10
+2. 视觉冲击力（视觉强度、吸引力）—— 0～10
+3. 可模仿性（能否拆解、可复现）—— 0～10
+4. 学习价值（对创作者的启发程度）—— 0～10
+
+### 计算方式
+
+Creative Score = 新颖度×0.30 + 视觉冲击力×0.25 + 可模仿性×0.25 + 学习价值×0.20
+
+### 输出格式
+
+只输出 JSON：
+
+{
+  "novelty": 7,
+  "visual_impact": 8,
+  "imitability": 6,
+  "learning_value": 7,
+  "score": 7.25
+}

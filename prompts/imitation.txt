@@ -1,0 +1,23 @@
+## 模仿步骤模板
+
+### 输入
+
+Title: {title}
+Source: {source}
+Category: {category}
+Creative Core: {creative_core}
+Visual Analysis: {visual_analysis}
+Description: {description}
+
+### 输出要求
+
+给出「可直接模仿」的 3 步拆解。每步尽量具体、可执行。
+
+### 示例结构
+
+1. 找一个普通物体
+2. 放大到建筑级尺度
+3. 加入一个比例很小的人物
+4. 使用低机位摄影
+5. 增加电影级光影
+6. 保持背景极简

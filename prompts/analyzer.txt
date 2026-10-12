@@ -1,0 +1,132 @@
+AI 分析模块设计说明
+=====================
+
+本模块对采集到的创意内容进行深度分析，输出结构化卡片，供网页展示和邮件推送使用。
+
+## 调用方式
+
+统一走 **OpenAI Compatible API**：
+
+```python
+from backend.app.ai.client import AIClient
+
+client = AIClient(
+    provider="lmstudio",       # lmstudio / ollama / deepseek / qwen / openai
+    base_url="http://127.0.0.1:1234/v1",
+    api_key="lm-stdio",
+    model="Qwen",
+)
+resp = client.call("user", "你好")
+```
+
+配置来自 Settings（database/schemas.py）：
+
+| 字段 | 默认值 |
+|---|---|
+| ai_provider | lmstudio |
+| ai_base_url | http://127.0.0.1:1234/v1 |
+| ai_api_key | lm-studio |
+| ai_model | Qwen |
+| ai_temperature | 0.3 |
+| ai_max_tokens | 2048 |
+
+## 8 问分析
+
+对每条创意内容，AI 需回答 8 个问题：
+
+1. 这是什么？—— 一句话概括
+2. 为什么值得看？—— 推荐理由
+3. 最核心创意是什么？—— Creative Core
+4. 视觉上为什么有效？—— 构图/色彩/比例/材质/光影/镜头/节奏/字体/空间
+5. 用了什么创意套路？—— 尺度反差/视觉错觉/物体拟人/现实×幻想/旧物新用/反常识/极简/荒诞
+6. 如何模仿？—— 给出 3 步
+7. 如何应用到自己的项目？—— 广告/短视频/海报/AI图片/AI视频/品牌/产品
+8. AI 如何继续生成？—— Midjourney/Flux/SDXL/Qwen Image/视频 提示词
+
+### 提示词模板
+
+见 `prompts/analyzer.txt`（综合分析主模板）。
+
+## 创意评分
+
+```
+Creative Score = 新颖度×0.30 + 视觉冲击×0.25 + 可模仿性×0.25 + 学习价值×0.20
+```
+
+- 每项 0～10
+- 用于从 20～50 条筛选出 10～20 条进入精选池
+
+### 评分模板
+
+见 `prompts/scoring.txt`。
+
+## 输出字段
+
+分析完成后，生成的卡片字段（数据库 CreativeCard 模型）：
+
+```python
+ai_summary:      # 这是什么：一句话概括
+recommendation:  # 推荐理由
+creative_core:   # Creative Core
+visual_analysis: # 视觉拆解
+creative_tricks: # 创意套路
+imitation_method: # 模仿步骤
+application:     # 如何应用到自己的项目
+ai_prompt:       # AI 继续创作提示
+```
+
+## 调用流程
+
+```
+CreativeItem (raw) → AIAnalyzer.analyze() → CreativeCard (8 问 + 评分)
+```
+
+## 测试
+
+运行：
+
+```bash
+cd backend
+python -m app.ai.test
+```
+
+该脚本会加载一个测试样例，测试 8 问分析的完整流程（不实际调用外部 API，仅验证结构）。
+
+
+==================================
+## 8 问分析主模板
+
+你是一个创意分析专家。请分析下面这条创意内容，并按以下 8 问输出结构化 JSON：
+
+1. 这是什么？（一句话概括）
+2. 为什么值得看？（推荐理由）
+3. 最核心创意是什么？（Creative Core）
+4. 视觉上为什么有效？（构图/色彩/比例/材质/光影/镜头/节奏/字体/空间）
+5. 用了什么创意套路？（尺度反差/视觉错觉/物体拟人/现实×幻想/旧物新用/反常识/极简/荒诞）
+6. 如何模仿？（给出 3 步）
+7. 如何应用到自己的项目？（广告/短视频/海报/AI图片/AI视频/品牌/产品）
+8. AI 如何继续生成？（给出 Midjourney/Flux/SDXL/Qwen Image/视频 提示词）
+
+### 输入内容
+
+Title: {title}
+Source: {source}
+Category: {category}
+Tags: {tags}
+Description: {description}
+Author: {author}
+URL: {source_url}
+Published At: {published_at}
+
+### 输出要求
+
+- 只输出 JSON，不要任何解释
+- JSON 字段：
+  - ai_summary: 一句话概括
+  - recommendation: 为什么值得看
+  - creative_core: 最核心创意
+  - visual_analysis: 视觉拆解
+  - creative_tricks: 创意套路
+  - imitation_method: 模仿步骤（3 步）
+  - application: 如何应用到自己的项目
+  - ai_prompt: AI 生成提示词
