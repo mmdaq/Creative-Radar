@@ -10,7 +10,7 @@ from typing import Any
 
 from ..database.database import get_db
 from ..database.models import CreativeItem, CreativeCard
-from .email import email_service
+from ..services.email import email_service
 
 
 class DailyEmailScheduler:
