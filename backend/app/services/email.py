@@ -10,8 +10,8 @@ from email.message import EmailMessage
 from pathlib import Path
 from typing import Any
 
-# 项目根目录
-PROJECT_ROOT = Path(__file__).parent.parent.parent
+# 项目根目录（services/email.py 位于 backend/app/services/ 下，需上溯 4 层到仓库根）
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
 EMAIL_TEMPLATE_PATH = PROJECT_ROOT / "email" / "daily_digest.html"
 
 # 导入全局配置
