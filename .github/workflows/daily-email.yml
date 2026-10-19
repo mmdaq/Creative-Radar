@@ -23,6 +23,8 @@ jobs:
 
       - name: Send daily email
         env:
+          # 这是一个专门的"发送邮件"工作流，默认启用；实际是否发送仍取决于 SMTP 密钥是否存在
+          EMAIL_ENABLED: "true"
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -30,5 +32,5 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: |
-          cd backend/app
-          python -m app.scheduler.daily
+          # 从仓库根目录运行，使 backend.app.* 绝对导入与相对导入都能解析
+          python -m backend.app.scheduler.daily
