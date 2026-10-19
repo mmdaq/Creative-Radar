@@ -26,7 +26,8 @@ jobs:
           # 这是一个专门的"发送邮件"工作流，默认启用；实际是否发送仍取决于 SMTP 密钥是否存在
           EMAIL_ENABLED: "true"
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          # SMTP_PORT 是 int 类型；密钥缺失时回退到默认 465，避免 pydantic 解析空串报错
+          SMTP_PORT: ${{ secrets.SMTP_PORT || 465 }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
