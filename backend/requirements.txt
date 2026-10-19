@@ -10,6 +10,3 @@ python-dateutil==2.9.0.post0
 requests==2.32.3
 pandas==2.2.2
 python-multipart==0.0.10
-
-# 前端构建依赖
-nodejs==18.20.0
