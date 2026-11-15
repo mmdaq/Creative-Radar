@@ -1,0 +1,1137 @@
+{
+ "seen": {
+  "JimLiu/baoyu-skills": {
+   "stars_last": 27533,
+   "pushed_last": "2026-11-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "imraywang/wewrite": {
+   "stars_last": 3707,
+   "pushed_last": "2026-11-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "Jakeschincariol/instagram-agent-skill": {
+   "stars_last": 6354,
+   "pushed_last": "2026-09-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "sergebulaev/linkedin-skills": {
+   "stars_last": 5906,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "Jakeschincariol/youtube-agent-skill": {
+   "stars_last": 5844,
+   "pushed_last": "2026-09-16",
+   "catalog_updated": "2026-11-14"
+  },
+  "mcncarl/yichen-skills": {
+   "stars_last": 5261,
+   "pushed_last": "2026-11-01",
+   "catalog_updated": "2026-11-14"
+  },
+  "charlie947/social-media-skills": {
+   "stars_last": 4698,
+   "pushed_last": "2026-10-18",
+   "catalog_updated": "2026-11-14"
+  },
+  "Jakeschincariol/linkedin-agent-skill": {
+   "stars_last": 3546,
+   "pushed_last": "2026-09-17",
+   "catalog_updated": "2026-11-14"
+  },
+  "Xiangyu-CAS/xiaohongshu-ops-skill": {
+   "stars_last": 2570,
+   "pushed_last": "2026-03-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "tsingyuai/growth-lab": {
+   "stars_last": 1972,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "SpaceZephyr/creator-buddy": {
+   "stars_last": 1895,
+   "pushed_last": "2026-08-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "Hao0321/claude-skill-social-post": {
+   "stars_last": 858,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "sergebulaev/instagram-skills": {
+   "stars_last": 831,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "AgriciDaniel/claude-youtube": {
+   "stars_last": 768,
+   "pushed_last": "2026-04-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "aiworkskills/wechat-article-skills": {
+   "stars_last": 742,
+   "pushed_last": "2026-09-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "yanhua1010/self-media-content-workflow": {
+   "stars_last": 707,
+   "pushed_last": "2026-11-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "blacktwist/social-media-skills": {
+   "stars_last": 654,
+   "pushed_last": "2026-11-05",
+   "catalog_updated": "2026-11-14"
+  },
+  "Ootto-AI/claude-content-skills": {
+   "stars_last": 452,
+   "pushed_last": "2026-11-07",
+   "catalog_updated": "2026-11-14"
+  },
+  "imraywang/rayskills": {
+   "stars_last": 391,
+   "pushed_last": "2026-11-05",
+   "catalog_updated": "2026-11-14"
+  },
+  "BND-1/wechat_article_skills": {
+   "stars_last": 318,
+   "pushed_last": "2026-01-16",
+   "catalog_updated": "2026-11-14"
+  },
+  "social-media-skills/skills": {
+   "stars_last": 307,
+   "pushed_last": "2026-10-15",
+   "catalog_updated": "2026-11-14"
+  },
+  "jiji262/wechat-publisher": {
+   "stars_last": 296,
+   "pushed_last": "2026-10-30",
+   "catalog_updated": "2026-11-14"
+  },
+  "stevenflanagan1/social-ai-team": {
+   "stars_last": 276,
+   "pushed_last": "2026-11-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "OrangeViolin/content-pipeline": {
+   "stars_last": 219,
+   "pushed_last": "2026-04-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "wenziai/wenzi-xiaohongshu-workflow": {
+   "stars_last": 208,
+   "pushed_last": "2026-11-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "sergebulaev/x-skills": {
+   "stars_last": 177,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "sergebulaev/facebook-skills": {
+   "stars_last": 148,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "843645440/wechat-skill": {
+   "stars_last": 139,
+   "pushed_last": "2026-10-25",
+   "catalog_updated": "2026-11-14"
+  },
+  "sergebulaev/tiktok-skills": {
+   "stars_last": 128,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "IanShaw027/wemp-operator": {
+   "stars_last": 114,
+   "pushed_last": "2026-02-02",
+   "catalog_updated": "2026-11-14"
+  },
+  "sergebulaev/youtube-skills": {
+   "stars_last": 99,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "solar-luna/Fully-automatic-article-generation-skill": {
+   "stars_last": 72,
+   "pushed_last": "2026-01-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "sergebulaev/threads-skills": {
+   "stars_last": 66,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "jackbauerxu/workbuddy-xhs-skills": {
+   "stars_last": 52,
+   "pushed_last": "2026-08-01",
+   "catalog_updated": "2026-11-14"
+  },
+  "554022647henry-boop/xhs-ai-workflow": {
+   "stars_last": 36,
+   "pushed_last": "2026-05-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "LDJ-creat/MediaManager": {
+   "stars_last": 29,
+   "pushed_last": "2026-06-25",
+   "catalog_updated": "2026-11-14"
+  },
+  "zizhanovo/doubaoya-community": {
+   "stars_last": 12,
+   "pushed_last": "2026-10-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "blader/humanizer": {
+   "stars_last": 68897,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "op7418/Humanizer-zh": {
+   "stars_last": 22797,
+   "pushed_last": "2026-09-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "KKKKhazix/khazix-skills": {
+   "stars_last": 22240,
+   "pushed_last": "2026-11-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "larashero3-dotcom/lieflat-less-ai-tone": {
+   "stars_last": 7607,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "KKKKhazix/human-writing": {
+   "stars_last": 4588,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "larashero3-dotcom/writing-dna-skill": {
+   "stars_last": 3150,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "MrGeDiao/shuorenhua": {
+   "stars_last": 2613,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "mikiarlo3/ai-copywriter": {
+   "stars_last": 1209,
+   "pushed_last": "2026-08-01",
+   "catalog_updated": "2026-11-14"
+  },
+  "nashsu/Viral_Writer_Skill": {
+   "stars_last": 841,
+   "pushed_last": "2026-03-24",
+   "catalog_updated": "2026-11-14"
+  },
+  "yuwen-cool/yuwen-publish-precheck": {
+   "stars_last": 813,
+   "pushed_last": "2026-10-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "LifelongLazyLearner/qu-ai-wei": {
+   "stars_last": 751,
+   "pushed_last": "2026-09-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "jalaalrd/anti-ai-slop-writing": {
+   "stars_last": 608,
+   "pushed_last": "2026-04-18",
+   "catalog_updated": "2026-11-14"
+  },
+  "liuhaisi2026212-maker/taishang-laojun": {
+   "stars_last": 558,
+   "pushed_last": "2026-11-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "dongbeixiaohuo/writing-agent": {
+   "stars_last": 457,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "crawfordxx/xiaoma-durex-copywriter": {
+   "stars_last": 346,
+   "pushed_last": "2026-08-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "Aboudjem/humanizer-skill": {
+   "stars_last": 311,
+   "pushed_last": "2026-09-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "vyralcontent/content-skills": {
+   "stars_last": 218,
+   "pushed_last": "2026-06-22",
+   "catalog_updated": "2026-11-14"
+  },
+  "gainubi/wechat-skills": {
+   "stars_last": 173,
+   "pushed_last": "2026-05-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "code-wahaha/traffic-compass": {
+   "stars_last": 102,
+   "pushed_last": "2026-07-07",
+   "catalog_updated": "2026-11-14"
+  },
+  "XshuiAi/media-publish-check": {
+   "stars_last": 73,
+   "pushed_last": "2026-07-22",
+   "catalog_updated": "2026-11-14"
+  },
+  "liuxingqitd/content-risk-detector": {
+   "stars_last": 58,
+   "pushed_last": "2026-09-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "softbread/xiaohongshu-doctor": {
+   "stars_last": 3,
+   "pushed_last": "2026-01-15",
+   "catalog_updated": "2026-11-14"
+  },
+  "op7418/guizang-social-card-skill": {
+   "stars_last": 8097,
+   "pushed_last": "2026-10-30",
+   "catalog_updated": "2026-11-14"
+  },
+  "isjiamu/gzh-design-skill": {
+   "stars_last": 4361,
+   "pushed_last": "2026-10-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "op7418/guizang-ppt-skill": {
+   "stars_last": 29761,
+   "pushed_last": "2026-10-30",
+   "catalog_updated": "2026-11-14"
+  },
+  "helloianneo/ian-xiaohei-illustrations": {
+   "stars_last": 13202,
+   "pushed_last": "2026-10-27",
+   "catalog_updated": "2026-11-14"
+  },
+  "nexu-io/openmotion": {
+   "stars_last": 9864,
+   "pushed_last": "2026-11-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "yang0/handraw-style": {
+   "stars_last": 7633,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "geekjourneyx/md2wechat-skill": {
+   "stars_last": 3800,
+   "pushed_last": "2026-10-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "chengyi-ai/native-subtitle-quote-image": {
+   "stars_last": 2878,
+   "pushed_last": "2026-11-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "nateherkai/herk-edit-kit": {
+   "stars_last": 2826,
+   "pushed_last": "2026-10-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "rushindrasinha/youtube-shorts-pipeline": {
+   "stars_last": 2371,
+   "pushed_last": "2026-06-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "op7418/Youtube-clipper-skill": {
+   "stars_last": 2312,
+   "pushed_last": "2026-01-22",
+   "catalog_updated": "2026-11-14"
+  },
+  "andyhuo520/digital-human-koubo": {
+   "stars_last": 1970,
+   "pushed_last": "2026-10-31",
+   "catalog_updated": "2026-11-14"
+  },
+  "WoYun520/gif-factory": {
+   "stars_last": 1767,
+   "pushed_last": "2026-11-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "Pluviobyte/rnskill": {
+   "stars_last": 1740,
+   "pushed_last": "2026-09-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "Agents365-ai/video-podcast-maker": {
+   "stars_last": 1721,
+   "pushed_last": "2026-10-01",
+   "catalog_updated": "2026-11-14"
+  },
+  "ziguishian/xhs-visual-director-skill": {
+   "stars_last": 1543,
+   "pushed_last": "2026-07-03",
+   "catalog_updated": "2026-11-14"
+  },
+  "adrianpunk/Punk-Posters": {
+   "stars_last": 1463,
+   "pushed_last": "2026-11-04",
+   "catalog_updated": "2026-11-14"
+  },
+  "joeseesun/qiaomu-mondo-poster-design": {
+   "stars_last": 1379,
+   "pushed_last": "2026-03-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "HeyChengC/vibe-knowledge-film": {
+   "stars_last": 1304,
+   "pushed_last": "2026-10-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "xixihhhh/clipforge": {
+   "stars_last": 1284,
+   "pushed_last": "2026-10-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "feicaiclub/video-spec-builder": {
+   "stars_last": 1077,
+   "pushed_last": "2026-05-18",
+   "catalog_updated": "2026-11-14"
+  },
+  "konlu/story-studio": {
+   "stars_last": 1071,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "pyang5166/gbro-cover-design": {
+   "stars_last": 981,
+   "pushed_last": "2026-07-15",
+   "catalog_updated": "2026-11-14"
+  },
+  "GiMi-Xiaomi/gimi-illustration-skill": {
+   "stars_last": 728,
+   "pushed_last": "2026-08-03",
+   "catalog_updated": "2026-11-14"
+  },
+  "xiaohuailabs/xiaohu-wechat-format": {
+   "stars_last": 711,
+   "pushed_last": "2026-06-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "charlie947/motion-graphics-skills": {
+   "stars_last": 671,
+   "pushed_last": "2026-10-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "louisedesadeleer/clipify": {
+   "stars_last": 656,
+   "pushed_last": "2026-08-24",
+   "catalog_updated": "2026-11-14"
+  },
+  "Jaycheng1103/chatgpt-video-editing-skills": {
+   "stars_last": 625,
+   "pushed_last": "2026-07-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "op7418/Document-illustrator-skill": {
+   "stars_last": 611,
+   "pushed_last": "2026-01-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "axtonliu/smart-illustrator": {
+   "stars_last": 573,
+   "pushed_last": "2026-06-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "liuluhaixiu/DaVinci-AutoEdit-Agent": {
+   "stars_last": 520,
+   "pushed_last": "2026-06-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "Clipcat-ai/clipcat-skill": {
+   "stars_last": 506,
+   "pushed_last": "2026-10-24",
+   "catalog_updated": "2026-11-14"
+  },
+  "geekjourneyx/claude-design-card": {
+   "stars_last": 475,
+   "pushed_last": "2026-05-27",
+   "catalog_updated": "2026-11-14"
+  },
+  "xixihhhh/hotclip": {
+   "stars_last": 461,
+   "pushed_last": "2026-10-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "chengyi-ai/cy-carousel-skill": {
+   "stars_last": 442,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "panggungunvibe/atutun-xhs-cover": {
+   "stars_last": 437,
+   "pushed_last": "2026-05-30",
+   "catalog_updated": "2026-11-14"
+  },
+  "helloianneo/ian-xhs-carousel": {
+   "stars_last": 309,
+   "pushed_last": "2026-10-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "xiaohuailabs/xiaohu-ip-studio": {
+   "stars_last": 306,
+   "pushed_last": "2026-06-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "oil-oil/oil-cover": {
+   "stars_last": 296,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "szhshp/panda-video-generator": {
+   "stars_last": 293,
+   "pushed_last": "2026-10-18",
+   "catalog_updated": "2026-11-14"
+  },
+  "hongfamonvAI/oh-my-cover-design": {
+   "stars_last": 288,
+   "pushed_last": "2026-05-16",
+   "catalog_updated": "2026-11-14"
+  },
+  "WeiZhuochun/douyin-live-recorder": {
+   "stars_last": 259,
+   "pushed_last": "2026-08-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "dososo/blcaptain-lingjian-video": {
+   "stars_last": 256,
+   "pushed_last": "2026-07-20",
+   "catalog_updated": "2026-11-14"
+  },
+  "ColinGPT9/clips-studio": {
+   "stars_last": 248,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "Vivixiao980/xhs-cover-skill": {
+   "stars_last": 223,
+   "pushed_last": "2026-10-24",
+   "catalog_updated": "2026-11-14"
+  },
+  "JuneYaooo/xhs-writer-skill": {
+   "stars_last": 203,
+   "pushed_last": "2026-04-25",
+   "catalog_updated": "2026-11-14"
+  },
+  "dososo/blcaptain-style-skill": {
+   "stars_last": 186,
+   "pushed_last": "2026-07-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "znyupup/ai-video-editing-skill": {
+   "stars_last": 180,
+   "pushed_last": "2026-04-27",
+   "catalog_updated": "2026-11-14"
+  },
+  "dansugc/reelclaw": {
+   "stars_last": 153,
+   "pushed_last": "2026-10-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "jianshuo/claude-skills": {
+   "stars_last": 140,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "cyberxiaowan/xiaowan-wechat-layout-skill": {
+   "stars_last": 135,
+   "pushed_last": "2026-10-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "itchernetski/threads-carousel-claude-skill": {
+   "stars_last": 124,
+   "pushed_last": "2026-04-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "freestylefly/xiaohongshu-skills": {
+   "stars_last": 98,
+   "pushed_last": "2026-01-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "zhouwei713/luobo-design": {
+   "stars_last": 97,
+   "pushed_last": "2026-11-04",
+   "catalog_updated": "2026-11-14"
+  },
+  "SpaceZephyr/space-image": {
+   "stars_last": 85,
+   "pushed_last": "2026-10-22",
+   "catalog_updated": "2026-11-14"
+  },
+  "iamzifei/wechat-article-formatter-skill": {
+   "stars_last": 78,
+   "pushed_last": "2026-11-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "CY-CHENYUE/wechat-typesetting-cy": {
+   "stars_last": 75,
+   "pushed_last": "2026-09-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "nicolapocock/claude-reel-editor": {
+   "stars_last": 41,
+   "pushed_last": "2026-11-01",
+   "catalog_updated": "2026-11-14"
+  },
+  "iart-ai/tiktok-video-skills": {
+   "stars_last": 23,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "Branding5/social-media-image-sizes": {
+   "stars_last": 7,
+   "pushed_last": "2026-04-30",
+   "catalog_updated": "2026-11-14"
+  },
+  "iamzifei/xiaohongshu-images-skill": {
+   "stars_last": 7,
+   "pushed_last": "2026-11-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "murphywuwu/easysociable-mcp": {
+   "stars_last": 0,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "HoneyVid/skills": {
+   "stars_last": 0,
+   "pushed_last": "2026-11-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "dreammis/social-auto-upload": {
+   "stars_last": 16529,
+   "pushed_last": "2026-10-22",
+   "catalog_updated": "2026-11-14"
+  },
+  "wechatsync/Wechatsync": {
+   "stars_last": 6623,
+   "pushed_last": "2026-11-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "white0dew/XiaohongshuSkills": {
+   "stars_last": 3601,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "autoclaw-cc/xiaohongshu-skills": {
+   "stars_last": 2042,
+   "pushed_last": "2026-05-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "hanliang97/MatrixMedia": {
+   "stars_last": 1302,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "wshuyi/x-article-publisher-skill": {
+   "stars_last": 876,
+   "pushed_last": "2026-01-25",
+   "catalog_updated": "2026-11-14"
+  },
+  "jihe520/social-push": {
+   "stars_last": 551,
+   "pushed_last": "2026-06-28",
+   "catalog_updated": "2026-11-14"
+  },
+  "RyanYipeng/SyncCaster": {
+   "stars_last": 510,
+   "pushed_last": "2026-08-25",
+   "catalog_updated": "2026-11-14"
+  },
+  "oil-oil/video-publisher-skill": {
+   "stars_last": 279,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "autoclaw-cc/xiaohongshu-mcp-skills": {
+   "stars_last": 279,
+   "pushed_last": "2026-03-05",
+   "catalog_updated": "2026-11-14"
+  },
+  "taisly/agent": {
+   "stars_last": 222,
+   "pushed_last": "2026-10-22",
+   "catalog_updated": "2026-11-14"
+  },
+  "iamzifei/wechat-article-publisher-skill": {
+   "stars_last": 158,
+   "pushed_last": "2026-08-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "BadKid90s/Spreado": {
+   "stars_last": 149,
+   "pushed_last": "2026-11-07",
+   "catalog_updated": "2026-11-14"
+  },
+  "Linked-API/linkedin-skills": {
+   "stars_last": 110,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "ndesv21/socialclaw": {
+   "stars_last": 110,
+   "pushed_last": "2026-10-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "chengyi-ai/douyin-image-post-scheduler": {
+   "stars_last": 108,
+   "pushed_last": "2026-10-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "WJZ-P/douyin-upload-mcp-skill": {
+   "stars_last": 92,
+   "pushed_last": "2026-04-01",
+   "catalog_updated": "2026-11-14"
+  },
+  "publora/skills": {
+   "stars_last": 68,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "0731coderlee-sudo/wechat-publisher": {
+   "stars_last": 49,
+   "pushed_last": "2026-02-05",
+   "catalog_updated": "2026-11-14"
+  },
+  "Upload-Post/upload-post-skill": {
+   "stars_last": 39,
+   "pushed_last": "2026-10-28",
+   "catalog_updated": "2026-11-14"
+  },
+  "lancelin111/douyin-mcp-server": {
+   "stars_last": 35,
+   "pushed_last": "2026-06-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "iamzifei/red-publisher-skill": {
+   "stars_last": 11,
+   "pushed_last": "2026-08-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "bulkpublish/bulkpublish-ai-toolkit": {
+   "stars_last": 2,
+   "pushed_last": "2026-11-05",
+   "catalog_updated": "2026-11-14"
+  },
+  "mvanhorn/last30days-skill": {
+   "stars_last": 67581,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "qiye45/wechatDownload": {
+   "stars_last": 10054,
+   "pushed_last": "2026-11-01",
+   "catalog_updated": "2026-11-14"
+  },
+  "XBuilderLAB/cheat-on-content": {
+   "stars_last": 7556,
+   "pushed_last": "2026-11-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "zarazhangrui/follow-builders": {
+   "stars_last": 7140,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "ScrapeCreators/social-media-research-skills": {
+   "stars_last": 6428,
+   "pushed_last": "2026-08-26",
+   "catalog_updated": "2026-11-14"
+  },
+  "HUANGCHIHHUNGLeo/claude-real-video": {
+   "stars_last": 2314,
+   "pushed_last": "2026-10-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "Jesseovo/last30days-skill-cn": {
+   "stars_last": 2115,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "chubbyguan/chubbyskills": {
+   "stars_last": 1324,
+   "pushed_last": "2026-10-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "rohunvora/x-research-skill": {
+   "stars_last": 1247,
+   "pushed_last": "2026-02-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "ZeroPointRepo/youtube-skills": {
+   "stars_last": 1202,
+   "pushed_last": "2026-11-03",
+   "catalog_updated": "2026-11-14"
+  },
+  "jackwener/wechat-article-to-markdown": {
+   "stars_last": 1085,
+   "pushed_last": "2026-03-22",
+   "catalog_updated": "2026-11-14"
+  },
+  "ythx-101/x-tweet-fetcher": {
+   "stars_last": 1004,
+   "pushed_last": "2026-11-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "nashsu/autocli-skill": {
+   "stars_last": 938,
+   "pushed_last": "2026-04-20",
+   "catalog_updated": "2026-11-14"
+  },
+  "otter1101/blogger-distiller": {
+   "stars_last": 783,
+   "pushed_last": "2026-09-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "runningZ1/union-search-skill": {
+   "stars_last": 772,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "NanmiCoder/NewsCrawler": {
+   "stars_last": 639,
+   "pushed_last": "2026-08-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "iBigQiang/feedgrab": {
+   "stars_last": 623,
+   "pushed_last": "2026-10-24",
+   "catalog_updated": "2026-11-14"
+  },
+  "redfox-data/redfox-community": {
+   "stars_last": 462,
+   "pushed_last": "2026-11-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "chenxiachan/xhs-claude-skills": {
+   "stars_last": 434,
+   "pushed_last": "2026-08-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "JuneYaooo/social-account-doctor": {
+   "stars_last": 372,
+   "pushed_last": "2026-09-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "kaitoInfra/twitterapi-io": {
+   "stars_last": 336,
+   "pushed_last": "2026-10-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "koffuxu/ai-influence-digest": {
+   "stars_last": 320,
+   "pushed_last": "2026-04-18",
+   "catalog_updated": "2026-11-14"
+  },
+  "bradautomates/head-of-content": {
+   "stars_last": 314,
+   "pushed_last": "2026-01-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "atian-create/lingzao-skill": {
+   "stars_last": 305,
+   "pushed_last": "2026-07-02",
+   "catalog_updated": "2026-11-14"
+  },
+  "BigPengSays/bigpeng-hot-gzh": {
+   "stars_last": 286,
+   "pushed_last": "2026-08-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "jinchenma94/social-media-data-tools": {
+   "stars_last": 257,
+   "pushed_last": "2026-08-27",
+   "catalog_updated": "2026-11-14"
+  },
+  "imlewc/video-to-subtitle-summary-skill": {
+   "stars_last": 257,
+   "pushed_last": "2026-10-28",
+   "catalog_updated": "2026-11-14"
+  },
+  "ahang008/ah-douyin-clean-downloader": {
+   "stars_last": 256,
+   "pushed_last": "2026-10-03",
+   "catalog_updated": "2026-11-14"
+  },
+  "Xquik-dev/x-twitter-scraper": {
+   "stars_last": 229,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "socai-io/jev-social": {
+   "stars_last": 212,
+   "pushed_last": "2026-11-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "freestylefly/wechat-article-extractor-skill": {
+   "stars_last": 141,
+   "pushed_last": "2026-02-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "liangdabiao/tikhub_api_skill": {
+   "stars_last": 130,
+   "pushed_last": "2026-07-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "zhjiang22/openclaw-xhs": {
+   "stars_last": 127,
+   "pushed_last": "2026-03-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "hongfamonvAI/hook-lab": {
+   "stars_last": 112,
+   "pushed_last": "2026-06-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "KANIKIG/wechat-search-weread": {
+   "stars_last": 87,
+   "pushed_last": "2026-06-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "AgriciDaniel/youtube-scout": {
+   "stars_last": 78,
+   "pushed_last": "2026-10-30",
+   "catalog_updated": "2026-11-14"
+  },
+  "vigorX777/x-ai-topic-selector": {
+   "stars_last": 59,
+   "pushed_last": "2026-02-20",
+   "catalog_updated": "2026-11-14"
+  },
+  "piekill/xiaohongshu-summarizer-skill": {
+   "stars_last": 44,
+   "pushed_last": "2026-03-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "tubeagentkit/youtube-transcript-skills": {
+   "stars_last": 41,
+   "pushed_last": "2026-11-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "one-box-u/openclaw-daily-hot-news": {
+   "stars_last": 14,
+   "pushed_last": "2026-02-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "apidojo-io/social-media-skills": {
+   "stars_last": 3,
+   "pushed_last": "2026-09-02",
+   "catalog_updated": "2026-11-14"
+  },
+  "liu-wei-ai/douyin-video-summary": {
+   "stars_last": 2,
+   "pushed_last": "2026-02-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "skillify-sh/skills": {
+   "stars_last": 0,
+   "pushed_last": "2026-08-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "dontbesilent2025/dbskill": {
+   "stars_last": 11436,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "alchaincyf/x-mentor-skill": {
+   "stars_last": 1336,
+   "pushed_last": "2026-10-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "chenjin-cmd/xhs-virtual-product": {
+   "stars_last": 856,
+   "pushed_last": "2026-09-30",
+   "catalog_updated": "2026-11-14"
+  },
+  "mengke-wang/xiaohongshu-ai-workbench": {
+   "stars_last": 631,
+   "pushed_last": "2026-08-07",
+   "catalog_updated": "2026-11-14"
+  },
+  "chenjin-cmd/agent-skills-launch-pack_": {
+   "stars_last": 597,
+   "pushed_last": "2026-07-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "vivy-yi/xiaohongshu-skills": {
+   "stars_last": 548,
+   "pushed_last": "2026-01-23",
+   "catalog_updated": "2026-11-14"
+  },
+  "sharbelxyz/nova-youtube-agent": {
+   "stars_last": 394,
+   "pushed_last": "2026-07-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "Lulu-Eva/Eva-skill": {
+   "stars_last": 64,
+   "pushed_last": "2026-09-19",
+   "catalog_updated": "2026-11-14"
+  },
+  "Jian21311/account-diagnosis-skill": {
+   "stars_last": 0,
+   "pushed_last": "2026-11-06",
+   "catalog_updated": "2026-11-14"
+  },
+  "xpzouying/xiaohongshu-mcp": {
+   "stars_last": 17117,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "Panniantong/Agent-Reach": {
+   "stars_last": 111623,
+   "pushed_last": "2026-11-08",
+   "catalog_updated": "2026-11-14"
+  },
+  "epiral/bb-browser": {
+   "stars_last": 6264,
+   "pushed_last": "2026-05-29",
+   "catalog_updated": "2026-11-14"
+  },
+  "jackwener/xiaohongshu-cli": {
+   "stars_last": 2731,
+   "pushed_last": "2026-03-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "tmwgsicp/wechat-download-api": {
+   "stars_last": 1237,
+   "pushed_last": "2026-07-27",
+   "catalog_updated": "2026-11-14"
+  },
+  "trypostit/trypost": {
+   "stars_last": 861,
+   "pushed_last": "2026-11-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "jackwener/xhs-cli": {
+   "stars_last": 693,
+   "pushed_last": "2026-10-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "cv-cat/catbus": {
+   "stars_last": 616,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "gitroomhq/postiz-agent": {
+   "stars_last": 570,
+   "pushed_last": "2026-11-05",
+   "catalog_updated": "2026-11-14"
+  },
+  "public-clis/rdt-cli": {
+   "stars_last": 545,
+   "pushed_last": "2026-03-21",
+   "catalog_updated": "2026-11-14"
+  },
+  "lucasygu/redbook": {
+   "stars_last": 542,
+   "pushed_last": "2026-09-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "xpzouying/x-mcp": {
+   "stars_last": 492,
+   "pushed_last": "2026-09-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "0xNyk/xint": {
+   "stars_last": 261,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "adoresever/bilibili-mcp": {
+   "stars_last": 194,
+   "pushed_last": "2026-03-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "BAIGUANGMEI/zhihu-cli": {
+   "stars_last": 116,
+   "pushed_last": "2026-05-04",
+   "catalog_updated": "2026-11-14"
+  },
+  "jackwener/weibo-cli": {
+   "stars_last": 88,
+   "pushed_last": "2026-03-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "Youhai020616/douyin": {
+   "stars_last": 73,
+   "pushed_last": "2026-11-09",
+   "catalog_updated": "2026-11-14"
+  },
+  "wavegrain/wavegrain-mcp": {
+   "stars_last": 1,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "rocosen/flashdata-mcp": {
+   "stars_last": 0,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "gitroomhq/postiz-app": {
+   "stars_last": 41558,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "sansan0/TrendRadar": {
+   "stars_last": 63628,
+   "pushed_last": "2026-11-05",
+   "catalog_updated": "2026-11-14"
+  },
+  "krillinai/OpenCreator": {
+   "stars_last": 14343,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "TeamWiseFlow/xiaobei": {
+   "stars_last": 8720,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "rachelos/we-mp-rss": {
+   "stars_last": 5183,
+   "pushed_last": "2026-11-10",
+   "catalog_updated": "2026-11-14"
+  },
+  "ZJU-REAL/Easel": {
+   "stars_last": 4671,
+   "pushed_last": "2026-11-12",
+   "catalog_updated": "2026-11-14"
+  },
+  "langchain-ai/social-media-agent": {
+   "stars_last": 3015,
+   "pushed_last": "2026-11-11",
+   "catalog_updated": "2026-11-14"
+  },
+  "Jamailar/Beav": {
+   "stars_last": 2397,
+   "pushed_last": "2026-11-14",
+   "catalog_updated": "2026-11-14"
+  },
+  "zhimaAi/chatwiki": {
+   "stars_last": 2113,
+   "pushed_last": "2026-11-13",
+   "catalog_updated": "2026-11-14"
+  },
+  "LocoreMind/locoagent": {
+   "stars_last": 1078,
+   "pushed_last": "2026-06-27",
+   "catalog_updated": "2026-11-14"
+  }
+ },
+ "last_run": "2026-11-15",
+ "catalog_updated": "2026-11-14",
+ "run_count": 1
+}
